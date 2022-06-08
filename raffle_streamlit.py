@@ -13,7 +13,7 @@ from web3 import Web3
 #Connect to web3 server
 # Old Ganache Server w3=Web3(web3.HTTPProvider('http://127.0.0.1:7545'))
 #New Ganache Server:
-w3=Web3(Web3.HTTPProvider('http://127.0.0.1:8545'))
+w3=Web3(web3.HTTPProvider('http://127.0.0.1:8545'))
 
 #load accounts
 w3.eth.accounts
