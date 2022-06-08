@@ -30,7 +30,7 @@ with open('contract_abi.txt') as f:
 raffle_contract=w3.eth.contract(address=contract_address, abi=contract_abi)
 
 #call the house function to get the house address
-raffle_contract.functions.house().call()
+#raffle_contract.functions.house().call()
 
 
     
