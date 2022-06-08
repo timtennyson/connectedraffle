@@ -19,7 +19,7 @@ w3=Web3(web3.HTTPProvider('http://127.0.0.1:8545'))
 #w3.eth.accounts
 
 #Local contract address from remix when deployed:
-contract_address='0x8a3aC7Edf3860fBEEb8Be057eD71d4Fda64e7242'
+contract_address='0xD829f40baBb7E452c3Fd9F2ceCcfe01c6d604ADD'
 
 #import json and open contract_abi.txt (local abi, found in remix under "compile" tab when deployed)
 import json
