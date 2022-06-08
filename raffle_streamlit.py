@@ -78,7 +78,7 @@ def callback():
 purchased = st.sidebar.button("Purchase", on_click=callback)
 if purchased or st.session_state.purchased:
     st.write("Please confirm the following information:")
-    st.write(f"Ethereum Address: {address}")
+    st.write(f"Ethereum Address: {address_sender}")
     st.write(f"Number of Tickets: {Tickets}")
     st.write(f"Your total cost is: {Cost} ETH")
     
