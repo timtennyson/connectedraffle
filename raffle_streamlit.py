@@ -13,7 +13,7 @@ from web3 import Web3
 #Connect to web3 server
 # Old Ganache Server w3=Web3(web3.HTTPProvider('http://127.0.0.1:7545'))
 #New Ganache Server:
-w3=Web3(web3.HTTPProvider('http://127.0.0.1:8545'))
+w3=web3(Web3.HTTPProvider('http://127.0.0.1:8545'))
 
 #load accounts
 #w3.eth.accounts
@@ -43,7 +43,7 @@ pot = 0
 
 #Displaying the name of the site
 st.markdown("# Ethereum Raffle")
-st.markdown("## Purchase a ticket using ethereum and win big!")
+st.markdown("## Purchase a ticket using Ethereum and win big!")
 
 #Displaying the current time and next drawing
 st.sidebar.text(current_date)
