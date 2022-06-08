@@ -6,8 +6,8 @@ import pandas as pd
 import hashlib
 
 #Added the following imports-- TT
-#import web3
 
+import web3
 from web3 import Web3
 
 #Connect to web3 server
